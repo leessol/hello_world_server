@@ -2,8 +2,8 @@ pipeline {
   agent any
   environment {
     DOCKERHUB = credentials("dockerhub")
-    GITHUB_REPO="https://github.com/lyhan12/hello_world_server"
-    DOCKER_REPO="lyhan12/hello_world_server"
+    GITHUB_REPO="https://github.com/leessol/hello_world_server"
+    DOCKER_REPO="leessol/hello_world_server"
     VERSION=1.0
   }
   stages {
